@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+
+    <script src="vendors/jquery.min.js"></script>
+    <script src="scripts/snippets.js"></script>
+    <script src="scripts/client.js"></script>
+</head>
+<body>
+    <div>
+        <form id="js-sku-form">
+            <input id="js-input-sku" type="text" placeholder="Enter Sku"/>
+            <button>Submit Sku</button>
+        </form>
+
+        <table>
+            <thead>
+                <td>Image</td>
+                <td>Description</td>
+                <td>SKU</td>
+                <td>Price</td>
+            </thead>
+            <tbody id="js-container"></tbody>
+            <tfoot>
+                <td></td>
+                <td></td>
+                <td>Price</td>
+                <td id="js-total"></td>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
